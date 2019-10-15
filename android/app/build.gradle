@@ -112,6 +112,7 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
     }
+    lintOptions { checkReleaseBuilds false }
 
     signingConfigs {
         release {

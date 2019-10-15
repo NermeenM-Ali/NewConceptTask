@@ -65,7 +65,7 @@ export default class Home extends Component {
                      <AppText text={name} fontSize={wp(4)} color='black' marginHorizontal={wp(3)} fontWeight='500'/>
                      <AppText text= {position} fontSize={wp(4)} color='#95A5A6' marginHorizontal={wp(3)}/>
                      <Image source={require('../assets/imgs/rate.jpg')} style={{width:wp(24), height:hp(2), marginLeft:wp(11), marginTop:hp(1)}}/>   
-                     <AppText text= {details} fontSize={wp(3)} color='#F6813A' marginHorizontal={wp(2)} marginTop={hp(1)} textDecorationLine='underline'/>
+                     <AppText text= {details} fontSize={wp(3)} color='#F6813A' marginHorizontal={wp(2)} marginTop={hp(2)} textDecorationLine='underline'/>
 
                   </View>
                    

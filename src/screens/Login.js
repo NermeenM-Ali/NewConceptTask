@@ -108,9 +108,9 @@ class Login extends Component {
     renderButton = ()=> {
         return(
             <View style={{position:'absolute', bottom:0, left:0, right:0, height:hp(25)}}>
-               <LinearGradient  colors={['#F6813A', '#FAC858']} style={{width: wp(80), height: hp(7), alignSelf:'center'}}>
+               <LinearGradient  colors={['#F6813A', '#FAC858']} style={{width: wp(80), height: hp(9), alignSelf:'center', borderRadius:wp(1), elevation:2}}>
                 <Button block transparent
-                            style={{ width: wp(80), height: hp(7), alignSelf:'center', elevation:2}}
+                            style={{ width: wp(80), height: hp(9), alignSelf:'center'}}
                             onPress={()=> Navigation.push('AppStack', {
                                 component:{
                                     name:'Home',
@@ -127,7 +127,7 @@ class Login extends Component {
                     </Button>
                </LinearGradient>
 
-                <View style={{flexDirection:'row', width: WIDTH, alignItems:'center', justifyContent:'center', marginTop:hp(5)}}>
+                <View style={{flexDirection:'row', width: WIDTH, alignItems:'center', justifyContent:'center', marginTop:hp(3)}}>
                     <Button transparent>
                         <AppText text = 'تسجيل الدخول' fontSize={wp(4)} alignSelf='center' color='white'/>
                     </Button>
